@@ -1,0 +1,86 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Post 1",
+      "category_id": "Post 1",
+      "description": "Post 1",
+      "price": "Post 1",
+      "is_avaible": "Post 1",
+      "rating": "Post 1",
+      "review": "Post 1",
+      "vendor_name": "Post 1",
+      "waranty": "Post 1"
+    },
+    {
+      "id": 2,
+      "name": "Post 1",
+      "category_id": "Post 1",
+      "description": "Post 1",
+      "price": "Post 1",
+      "is_avaible": "Post 1",
+      "rating": "Post 1",
+      "review": "Post 1",
+      "vendor_name": "Post 1",
+      "waranty": "Post 1"
+    },
+    {
+      "id": 3,
+      "name": "Post 1",
+      "category_id": "Post 1",
+      "description": "Post 1",
+      "price": "Post 1",
+      "is_avaible": "Post 1",
+      "rating": "Post 1",
+      "review": "Post 1",
+      "vendor_name": "Post 1",
+      "waranty": "Post 1"
+    },
+    {
+      "id": 4,
+      "name": "Post 1",
+      "category_id": "Post 1",
+      "description": "Post 1",
+      "price": "Post 1",
+      "is_avaible": "Post 1",
+      "rating": "Post 1",
+      "review": "Post 1",
+      "vendor_name": "Post 1",
+      "waranty": "Post 1"
+    },
+    {
+      "id": 5,
+      "name": "Post 1",
+      "category_id": "Post 1",
+      "description": "Post 1",
+      "price": "Post 1",
+      "is_avaible": "Post 1",
+      "rating": "Post 1",
+      "review": "Post 1",
+      "vendor_name": "Post 1",
+      "waranty": "Post 1"
+    },
+    {
+      "id": 6,
+      "name": "Post 1",
+      "category_id": "Post 1",
+      "description": "Post 1",
+      "price": "Post 1",
+      "is_avaible": "Post 1",
+      "rating": "Post 1",
+      "review": "Post 1",
+      "vendor_name": "Post 1",
+      "waranty": "Post 1"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,81 @@
+
+ <div class="uk-position-center uk-overlay uk-overlay-default">
+    <form #f="ngForm" (ngSubmit)="register(f)">
+
+
+
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span class="uk-form-icon" uk-icon="icon: happy"></span>
+                <input class="uk-input" type="text" name="flName" #flName="ngModel" ngModel required>
+
+                <div class="alert alert-danger" role="alert" *ngIf="flName.errors?.required&& flName.touched">
+                    A simple danger alert—check it out!
+                  </div>
+            </div>
+        </div>
+
+
+
+        <div class="uk-margin">
+            <div class="uk-inline">
+           
+              <textarea name="text" id="" cols="29" rows="3" type="text"  name="bio" #bio="ngModel" ngModel required></textarea>
+              <div class="alert alert-danger" role="alert" *ngIf="bio.errors?.required&& bio.touched">
+                A simple danger alert—check it out!
+              </div>
+            </div>
+        </div>
+       
+
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span class="uk-form-icon" uk-icon="icon: user"></span>
+                <input class="uk-input"  type="text" name="email" #email="ngModel" ngModel required>
+                <div class="alert alert-danger" role="alert" *ngIf="email.errors?.required && email.touched">
+                    A simple danger alert—check it out!
+                  </div>
+            </div>
+        </div>
+    
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                <input class="uk-input" type="password" name="password" #password="ngModel" ngModel required minlength="8">
+                <div class="alert alert-danger" role="alert" *ngIf="password.errors?.required && password.touched">
+                    A simple danger alert—check it out!
+                  </div>
+
+                  <div class="alert alert-danger" role="alert" *ngIf="password.errors?.minlength && password.touched">
+                    A simple danger alert—check it out!
+                  </div>
+
+
+            </div>
+        </div>
+
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                <input class="uk-input" type="password" name="confirmpassword" #confirmpassword="ngModel" ngModel required minlength="8">
+                <div class="alert alert-danger" role="alert" *ngIf="confirmpassword.errors?.required && confirmpassword.touched">
+                    A simple danger alert—check it out!
+                  </div>
+                  <div class="alert alert-danger" role="alert" *ngIf="password.value!==confirmpassword.value && confirmpassword.touched">
+              no equal
+                   </div>
+            </div>
+        </div>
+
+
+        <button class="btn btn-primary" type="submit" style="width: 100%" [disabled]="f.invalid">Register</button>
+        <br>
+    
+    
+    </form>
+     
+
+ </div>
+     
+
+
